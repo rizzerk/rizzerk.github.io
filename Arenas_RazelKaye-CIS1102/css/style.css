@@ -1,0 +1,83 @@
+.header{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.WebsiteName{
+  text-align: left;
+  font-size: 40px;
+  width: 300px;
+  margin: 10px;
+
+}
+
+body{
+  margin-top: 70px;
+
+  text-align: center;
+  letter-spacing: 2.5px;
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #eaeaea;
+}
+
+h1{
+  padding-top: 180px;
+  font-size: 90px;
+  letter-spacing: 5.5px;
+  margin-bottom: 0px;
+}
+
+h2{
+  padding-top: 20px;
+  margin: 0;
+  font-size: 30px;
+}
+
+#welcomemssg{
+  font-size: 18px;
+  margin: 30px 270px 60px 270px;
+  padding:0px 150px 0px 150px;
+}
+
+button{
+  padding: 1.3em 3em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  height: 75px;
+  width: 350px;
+  font-size: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border: none;
+  border-radius: 45px;
+  margin-top: 15px;
+}
+
+button:hover{
+  background-color: #23b4c4;
+  box-shadow: 0 15px 20px rgba(46, 211, 229, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active{
+  transform: translateY(-1px);
+}
+
+a{
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 5px;
+  color: #23b4c4;
+}
